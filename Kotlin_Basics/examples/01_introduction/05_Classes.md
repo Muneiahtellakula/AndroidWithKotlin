@@ -13,10 +13,10 @@ fun main() {
 
     val customer = Customer()                   // 3
     
-    val contact = Contact(1, "mary@gmail.com")  // 4
+    val contact = Contact(1, "muni@gmail.com")  // 4
 
     println(contact.id)                         // 5
-    contact.email = "jane@gmail.com"            // 6
+    contact.email = "dixi@gmail.com"            // 6
 }
 ```
 
