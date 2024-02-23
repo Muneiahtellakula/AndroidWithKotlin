@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="10">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:id="@+id/movieposter_img"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_weight="4"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_title"
+        android:text="movie title"
+        android:textSize="20sp"
+        android:layout_weight="3"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_dirname"
+        android:text="movie dirname"
+        android:textSize="15sp"/>
+</LinearLayout>
